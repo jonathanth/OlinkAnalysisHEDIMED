@@ -6,8 +6,16 @@ Developed by Jonathan Thorsen 2023-25
 ## List of functions
 
 These functions assume that Olink data is supplied in long format with relevant covariates joined.
+
 Some functions expect target96 immune protein names. Feel free to fork and adapt to other datasets.
+
 Olink-related column names are assumed to be lowecase.
+
+
+It assumes the following packages are loaded: tidyverse, mixOmics, caret, doMC, ggforce, broom, lme4, lmerTest, broom.mixed
+
+And the following packages from github/jonathanth: mixOmicscaret, copiome
+
 
 ### Utilities
 
